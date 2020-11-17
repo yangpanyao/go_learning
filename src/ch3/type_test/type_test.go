@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+//Go语言不允许隐式类型转换  别名和原有类型也不能进行隐式转换
 type MyInt int64//别名
 func TestImplicit(t *testing.T)  {
 	var a int32 = 1
